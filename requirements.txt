@@ -1,0 +1,9 @@
+pandas
+numpy
+duckdb
+scikit-learn
+xgboost
+joblib
+langchain
+langchain-community
+langchain-ollama
