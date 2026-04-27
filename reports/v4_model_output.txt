@@ -1,0 +1,92 @@
+shaped: (2000000, 48)
+encoding completed
+oversampled train shape: (1695144, 46)
+fraud ratio now: 0.0702
+scale: 13.25
+model trained
+AUC Score: 0.9876007582191277
+best threshold: 0.92 best f1: 0.7013
+Threshold: 0.5
+Confusion Matrix
+[[378496  15558]
+ [   787   5159]]
+Classification Report
+              precision    recall  f1-score   support
+
+           0       1.00      0.96      0.98    394054
+           1       0.25      0.87      0.39      5946
+
+    accuracy                           0.96    400000
+   macro avg       0.62      0.91      0.68    400000
+weighted avg       0.99      0.96      0.97    400000
+
+Threshold: 0.6
+Confusion Matrix
+[[382754  11300]
+ [  1064   4882]]
+Classification Report
+              precision    recall  f1-score   support
+
+           0       1.00      0.97      0.98    394054
+           1       0.30      0.82      0.44      5946
+
+    accuracy                           0.97    400000
+   macro avg       0.65      0.90      0.71    400000
+weighted avg       0.99      0.97      0.98    400000
+
+Threshold: 0.7
+Confusion Matrix
+[[387272   6782]
+ [  1393   4553]]
+Classification Report
+              precision    recall  f1-score   support
+
+           0       1.00      0.98      0.99    394054
+           1       0.40      0.77      0.53      5946
+
+    accuracy                           0.98    400000
+   macro avg       0.70      0.87      0.76    400000
+weighted avg       0.99      0.98      0.98    400000
+
+Threshold: 0.8
+Confusion Matrix
+[[391127   2927]
+ [  1763   4183]]
+Classification Report
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99    394054
+           1       0.59      0.70      0.64      5946
+
+    accuracy                           0.99    400000
+   macro avg       0.79      0.85      0.82    400000
+weighted avg       0.99      0.99      0.99    400000
+
+Threshold: 0.9
+Confusion Matrix
+[[392830   1224]
+ [  2096   3850]]
+Classification Report
+              precision    recall  f1-score   support
+
+           0       0.99      1.00      1.00    394054
+           1       0.76      0.65      0.70      5946
+
+    accuracy                           0.99    400000
+   macro avg       0.88      0.82      0.85    400000
+weighted avg       0.99      0.99      0.99    400000
+
+Threshold: 0.92
+Confusion Matrix
+[[393010   1044]
+ [  2171   3775]]
+Classification Report
+              precision    recall  f1-score   support
+
+           0       0.99      1.00      1.00    394054
+           1       0.78      0.63      0.70      5946
+
+    accuracy                           0.99    400000
+   macro avg       0.89      0.82      0.85    400000
+weighted avg       0.99      0.99      0.99    400000
+

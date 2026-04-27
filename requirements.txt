@@ -1,0 +1,13 @@
+# Core Data & Math
+pandas          # Used for some data manipulation and display logic
+numpy           # Numerical operations and threshold arrays
+
+# Database & Feature Engineering
+duckdb          # The heavy lifter! All the complex feature engineering (window functions, lags, joins) happens in SQL here to handle the 2M+ rows efficiently
+
+# Machine Learning
+scikit-learn    # Used for train_test_split, LabelEncoder, and all the evaluation metrics (F1, AUC, Confusion Matrix)
+xgboost         # The core model algorithm (using the hist tree method for speed)
+
+# Visualization
+matplotlib      # Used to generate the final comparison charts (frauds caught vs missed, false positive reductions)

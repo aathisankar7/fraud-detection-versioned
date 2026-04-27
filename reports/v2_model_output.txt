@@ -1,0 +1,19 @@
+shaped: (2000000, 18)
+Fraud ratio: 0.0149  (29732 / 2000000)
+scale_pos_weight: 66.27
+Model trained
+
+AUC Score: 0.9559954387117546
+Confusion Matrix:
+[[320454  73600]
+ [   454   5492]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      0.81      0.90    394054
+           1       0.07      0.92      0.13      5946
+
+    accuracy                           0.81    400000
+   macro avg       0.53      0.87      0.51    400000
+weighted avg       0.98      0.81      0.89    400000
+

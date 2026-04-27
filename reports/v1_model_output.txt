@@ -1,0 +1,18 @@
+shaped: (2000000, 18)
+encoding completed
+scale: 66.11127888930834
+model trained
+confusion matrix
+[[393794    246]
+ [     5   5955]]
+classification report
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00    394040
+           1       0.96      1.00      0.98      5960
+
+    accuracy                           1.00    400000
+   macro avg       0.98      1.00      0.99    400000
+weighted avg       1.00      1.00      1.00    400000
+
+auc score: 0.9999822240221584
